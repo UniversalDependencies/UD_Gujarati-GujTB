@@ -1,18 +1,19 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) ...
-
+GujTB is an in-progress treebank of Gujarati (an Indo-Aryan language) in Gujarati script.
 
 # Introduction
 
-...
+Currently the treebank is comprised of 187 sentences, out of which 100 are doubly annotated by the authors. We plan to update the treebank with proper morphological annotations and features in the upcoming release.
 
 
 # Acknowledgments
 
-...
+
 
 ## References
+
+This work has been accepted at MWE-UD Workshop at LREC-COLING'24. We will soon add the citation.
 
 * (citation)
 
