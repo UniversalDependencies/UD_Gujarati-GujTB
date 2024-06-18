@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>187</sentences><tokens>1801</tokens><words>1885</words><fused>84</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>187</sentences><tokens>1801</tokens><words>1885</words><fused>84</fused></test>
+  </size>
+  <lemmas unique="866" /><!-- ., છે, ની, ,, અને, ના, પણ, એ, હતું, ન, રહેવું, ?, એક, તે, નો -->
+  <forms unique="967" /><!-- ., છે, ,, ના, અને, ની, પણ, એ, ?, તે, આ, એક, કે, જ, માટે -->
+  <fusions unique="80" /><!-- આપવાની, એની, તેની, વધારાની, 2016ના, અઝહરુદ્દીનના, અમલીકરણનો, આવવાની, આસપાસના, ઉત્પત્તિના, એકનો, એના, એનો, કમિશનની, કરવાની -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="17">
+    <tag name="ADJ">133</tag><!-- _, નાનકડા, નાનકડો, નાની, ભારતીય, અખિલ, રાષ્ટ્રીય, અન્ય, કોઇ, ખૂબ -->
+    <tag name="ADP">152</tag><!-- ની, ના, નો, માટે, નું, પર, સાથે, _, જેવા, જેવું -->
+    <tag name="ADV">60</tag><!-- _, પછી, હવે, ત્યાં, ન, અહીં, ક્યાંક, આજુબાજુ, આજે, એકદમ -->
+    <tag name="AUX">184</tag><!-- છે, _, હતું, રહેવું, ગયું, ન, શકવું, થવું, આવવું, શું -->
+    <tag name="CCONJ">50</tag><!-- અને, _, પણ, કે, પરંતુ, અથવા, જ્યારે, પરંતું -->
+    <tag name="DET">23</tag><!-- આ, _, એ, એક, કોઈ, કયા, જેમાં, તે, પેલા -->
+    <tag name="INTJ">14</tag><!-- હા, તો, _, ના, કે, જોકે, બાકી -->
+    <tag name="NOUN">425</tag><!-- _, રાજકુમાર, કલમ, ફૂલો, રાજકુમારે, લોકો, આરોપ, એવોર્ડ, કાર્યવાહી, ગાડી -->
+    <tag name="NUM">40</tag><!-- એક, 80, ત્રણ, 03, 1, 1.5, 12GB, 15, 2016, 300 -->
+    <tag name="PART">43</tag><!-- પણ, જ, _, તો, ન, ના, ફક્ત, યે, એ, શ્રી -->
+    <tag name="PRON">133</tag><!-- _, એ, તે, તું, જે, તમે, તેઓ, તેમને, હું, આ -->
+    <tag name="PROPN">145</tag><!-- _, મોદી, પીટર, કપૂર, નરેન્દ્ર, ભાજપ, મિર્ઝા, મેરી, યહોવાહ, વડાપ્રધાન -->
+    <tag name="PUNCT">250</tag><!-- ., _, ,, ?, “, !, ", -, :, ( -->
+    <tag name="SCONJ">13</tag><!-- _, કે, એટલે, કારણકે, જે, જ્યાં -->
+    <tag name="SYM">3</tag><!-- ટીટીએ, ડી, સી -->
+    <tag name="VERB">214</tag><!-- _, કરી, કરવા, કરવામાં, કરે, કહ્યું, લાગે, આપવા, આપે, આવે -->
+    <tag name="X">3</tag><!-- _ -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="22">
+    <feat name="Case" value="Abl" upos="PROPN">1</feat><!-- દિલ્હીથી -->
+    <feat name="Case" value="Abs" upos="NOUN">2</feat><!-- ચોપડી, ફળ -->
+    <feat name="Case" value="Acc" upos="NOUN,PRON">2</feat><!-- તેમને, વિમાનને -->
+    <feat name="Case" value="All" upos="NOUN">1</feat><!-- ઘરમાં -->
+    <feat name="Case" value="Cmp" upos="PROPN">1</feat><!-- છગનથી -->
+    <feat name="Case" value="Dat" upos="NOUN,PRON,PROPN">5</feat><!-- આપણને, ભારતને, મગનને, લિનાને, લોકોને -->
+    <feat name="Case" value="Erg" upos="NOUN,PROPN">6</feat><!-- મિતાએ, ઐયરે, પ્રધાનમંત્રીએ, મોદીએ -->
+    <feat name="Case" value="Gen" upos="NOUN,PRON">2</feat><!-- _ -->
+    <feat name="Case" value="Loc" upos="PROPN">4</feat><!-- અમદાવાદમાં, પુણેમાં, બિશ્કેકમાં, સમિટમાં -->
+    <feat name="Case" value="Nom" upos="PROPN">1</feat><!-- રામ -->
+    <feat name="Case" value="Tem" upos="NOUN">4</feat><!-- કાલે, અઠવાડિયામાં -->
+    <feat name="Case" value="Ter" upos="NUM">1</feat><!-- 7એ -->
+    <feat name="Clusivity" value="In" upos="PRON">1</feat><!-- આપણને -->
+    <feat name="Gender" value="Fem" upos="NOUN">6</feat><!-- _, આશા, ઓળખ, ઘટના, દુનિયા, પોલીસ -->
+    <feat name="Gender" value="Masc" upos="NOUN">2</feat><!-- બંદોબસ્ત, વિસ્તારમાં -->
+    <feat name="Gender" value="Neut" upos="NOUN">3</feat><!-- આપનારું, કાર્યાલય, ગામમાં -->
+    <feat name="Mood" value="Nec" upos="AUX">1</feat><!-- પડયું -->
+    <feat name="Number" value="Plur" upos="NOUN,PRON">6</feat><!-- _, આપણને, ઉપલબ્ધિઓ, પગલાંમાં, સદસ્યો, સવાલો -->
+    <feat name="Number" value="Sing" upos="NOUN">1</feat><!-- ઘટના -->
+    <feat name="Polite" value="Form" upos="VERB">1</feat><!-- આવજે -->
+    <feat name="Typo" value="Yes" upos="ADJ,CCONJ,NOUN">4</feat><!-- ઘાસવાળો, ઝગડા, તેમ, પ્રેમ -->
+    <feat name="VerbType" value="Ideo" upos="VERB">2</feat><!-- ડબુક -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="43">
+    <dep name="acl">16</dep>
+    <dep name="acl:relcl">1</dep>
+    <dep name="advcl">34</dep>
+    <dep name="advcl:relcl">1</dep>
+    <dep name="advmod">62</dep>
+    <dep name="amod">96</dep>
+    <dep name="appos">13</dep>
+    <dep name="aux">132</dep>
+    <dep name="case">151</dep>
+    <dep name="cc">49</dep>
+    <dep name="cc:preconj">3</dep>
+    <dep name="ccomp">13</dep>
+    <dep name="compound">32</dep>
+    <dep name="compound:lvc">33</dep>
+    <dep name="compound:svc">6</dep>
+    <dep name="conj">59</dep>
+    <dep name="cop">51</dep>
+    <dep name="dep">3</dep>
+    <dep name="det">21</dep>
+    <dep name="discourse">44</dep>
+    <dep name="dislocated">3</dep>
+    <dep name="fixed">2</dep>
+    <dep name="flat">36</dep>
+    <dep name="goeswith">3</dep>
+    <dep name="iobj">11</dep>
+    <dep name="mark">14</dep>
+    <dep name="nmod">125</dep>
+    <dep name="nmod:poss">3</dep>
+    <dep name="nmod:tmod">1</dep>
+    <dep name="nsubj">156</dep>
+    <dep name="nsubj:pass">18</dep>
+    <dep name="nummod">27</dep>
+    <dep name="obj">99</dep>
+    <dep name="obl">102</dep>
+    <dep name="obl:agent">1</dep>
+    <dep name="obl:tmod">7</dep>
+    <dep name="orphan">3</dep>
+    <dep name="parataxis">13</dep>
+    <dep name="punct">250</dep>
+    <dep name="reparandum">1</dep>
+    <dep name="root">187</dep>
+    <dep name="vocative">1</dep>
+    <dep name="xcomp">2</dep>
+  </deps>
+</treebank>
