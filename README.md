@@ -13,7 +13,8 @@ Currently the treebank is comprised of 187 sentences, out of which 100 are doubl
 
 ## References
 
-This work has been accepted at MWE-UD Workshop at LREC-COLING'24. We will soon add the citation.
+Please cite the following paper if you use this treebank in your research:
+
 
 ```bibtex
 @inproceedings{jobanputra-etal-2024-universal,
