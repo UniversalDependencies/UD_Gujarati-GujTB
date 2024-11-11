@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Gujarati-GujTB:
-commit 3f080f71ced8fb1e21d097746f7e91325220d0e4
+commit 36646ad18b79948d0a70310050069b8b9e33ae14
+Merge: 76e79a7 8b90b52
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 10:37:00 2024 +0200
 Size: counted 1885 of 1885 words (nodes).
 Size: min(0, log((N/1000)**2)) = 1.26785564179995.
 Size: maximum value 13.815511 is for 1000000 words or more.
