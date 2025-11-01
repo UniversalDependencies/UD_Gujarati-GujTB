@@ -1,4 +1,5 @@
 # sent_id = cairo_1
+# parallel_id = cairo/1
 # text = છોક્રીએ તેની બહેનપણીને પત્ર લખ્યો.
 1	છોક્રીએ	છોકરું	NOUN	_	_	6	nsubj	_	_
 2-3	તેની	_	_	_	_	_	_	_	_
@@ -10,6 +11,7 @@
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = cairo_2
+# parallel_id = cairo/2
 # text = મને લાગે છે કે વરસાદ વરસી રહ્યો છે.
 1	મને	હું	PRON	_	_	2	nsubj	_	_
 2	લાગે	લાગવું	VERB	_	_	0	root	_	_
@@ -22,6 +24,7 @@
 9	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = cairo_3
+# parallel_id = cairo/3
 # text = તેણે ધુમર્પાન અને મદિરાપાન છોડવાની કોશિશ કરી.
 1	તેણે	તેણે	PRON	_	_	5	nsubj	_	_
 2	ધુમર્પાન	ધુમર્પાન	NOUN	_	_	5	obj	_	_
@@ -33,6 +36,7 @@
 8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = cairo_4
+# parallel_id = cairo/4
 # text = શું તારે જવું છે ?
 1	શું	શું	AUX	_	_	3	aux	_	_
 2	તારે	તું	PRON	_	_	3	nsubj	_	_
@@ -41,6 +45,7 @@
 5	?	?	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = cairo_5
+# parallel_id = cairo/5
 # text = સેમ , બારી ઉઘાડ !
 1	સેમ	સેમ	NOUN	_	_	4	vocative	_	_
 2	,	,	PUNCT	_	_	4	punct	_	_
@@ -49,6 +54,7 @@
 5	!	!	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = cairo_6
+# parallel_id = cairo/6
 # text = તેણીએ તેના પતિ પાસે ગાડી ધોવડાવી.
 1	તેણીએ	તેણી	PRON	_	_	7	nsubj	_	_
 2-3	તેના	_	_	_	_	_	_	_	_
@@ -61,6 +67,7 @@
 8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = cairo_7
+# parallel_id = cairo/7
 # text = પીટરના પડોશીએ વાડ લાલ રંગી.
 1-2	પીટરના	_	_	_	_	_	_	_	_
 1	પીટર	પીટર	NOUN	_	_	3	nmod	_	_
@@ -72,6 +79,7 @@
 7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = cairo_8
+# parallel_id = cairo/8
 # text = મારા પપ્પા તારા પપ્પા કરતાં વધારે કૂલ છે.
 1	મારા	હું	PRON	_	_	2	nmod	_	_
 2	પપ્પા	પપ્પા	NOUN	_	_	7	nsubj	_	_
@@ -84,6 +92,7 @@
 9	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = cairo_9
+# parallel_id = cairo/9
 # text = મેરી કાંસ્ય , પીટર રજત અને જેન સુવર્ણ જીત્યા.
 1	મેરી	મેરી	PROPN	_	_	9	nsubj	_	_
 2	કાંસ્ય	કાંસ્ય	NOUN	_	_	9	obj	_	_
@@ -97,6 +106,7 @@
 10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
 
 # sent_id = cairo_10
+# parallel_id = cairo/10
 # text = શું ઇગુઆઝુ એક મોટો કે નાનો દેશ છે ?
 1	શું	શું	AUX	_	_	7	aux	_	_
 2	ઇગુઆઝુ	ઇગુઆઝુ	PROPN	_	_	7	nsubj	_	_
@@ -109,6 +119,7 @@
 9	?	?	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = cairo_11
+# parallel_id = cairo/11
 # text = પીટર સ્મિથ કે મેરી બ્રાઉનમાંથી કોઈની પસંદગી ના થઈ શકી.
 1	પીટર	પીટર	PROPN	_	_	8	nsubj:pass	_	_
 2	સ્મિથ	સ્મિથ	PROPN	_	_	1	flat	_	_
@@ -125,6 +136,7 @@
 12	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
 
 # sent_id = cairo_12
+# parallel_id = cairo/12
 # text = તેમને કોઈ ખ્યાલ નથી કોણે લખ્યું છે.
 1	તેમને	તેમને	PRON	_	_	3	nsubj	_	_
 2	કોઈ	કોઈ	DET	_	_	3	det	_	_
@@ -136,6 +148,7 @@
 8	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = cairo_13
+# parallel_id = cairo/13
 # text = તમે શું જોઇ રહ્યા છો ?
 1	તમે	તમે	PRON	_	_	3	nsubj	_	_
 2	શું	શું	PRON	_	_	3	obj	_	_
@@ -145,6 +158,7 @@
 6	?	?	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = cairo_14
+# parallel_id = cairo/14
 # text = તને શું લાગે છે તું ક્યારે આવી શકે ?
 1	તને	તને	PRON	_	_	3	nsubj	_	_
 2	શું	શું	PRON	_	_	3	obj	_	_
@@ -157,6 +171,7 @@
 9	?	?	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = cairo_15
+# parallel_id = cairo/15
 # text = તેણે ગાડી ખરીદી પણ તેના ભાઈએ ફક્ત બાઈક.
 1	તેણે	તેણે	PRON	_	_	3	nsubj	_	_
 2	ગાડી	ગાડી	NOUN	_	_	3	obj	_	_
@@ -169,6 +184,7 @@
 9	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = cairo_16
+# parallel_id = cairo/16
 # text = પીટર અને મૅરી ભેટ્યા એકબીજાને અને પછી કક્ષ છોડી દીધો.
 1	પીટર	પીટર	PROPN	_	_	4	nsubj	_	_
 2	અને	અને	CCONJ	_	_	3	cc	_	_
@@ -183,6 +199,7 @@
 11	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = cairo_17
+# parallel_id = cairo/17
 # text = તેણે તેનાં વાળ ઓળતા હોવા જોઈતા હતા પણ કોઈ કારણથી તે દિવસે તેણે ન કર્યાં.
 1	તેણે	તેણે	PRON	_	_	4	nsubj	_	_
 2	તેનાં	તેનાં	PRON	_	_	3	nmod	_	_
@@ -202,6 +219,7 @@
 16	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = cairo_18
+# parallel_id = cairo/18
 # text = હું પહોંચી ના વળ્યો કારણકે તે ખૂબ ઝડપી દોડી ગયો.
 1	હું	હું	PRON	_	_	2	nsubj	_	_
 2	પહોંચી	પહોંચી	VERB	_	_	0	root	_	_
@@ -216,6 +234,7 @@
 11	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = cairo_19
+# parallel_id = cairo/19
 # text = આ પત્ર પીટરનો છે અને એ ગઈકાલે પહોંચ્યો.
 1	આ	આ	DET	_	_	2	det	_	_
 2	પત્ર	પત્ર	NOUN	_	_	0	root	_	_
@@ -228,6 +247,7 @@
 9	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = cairo_20
+# parallel_id = cairo/20
 # text = તે પેરિસ, ફ્રાન્સની રાજધાનીમાં, મોટી થઈ.
 1	તે	તે	PRON	_	_	8	nsubj	_	_
 2	પેરિસ	પેરિસ	PROPN	_	_	8	obj	_	SpaceAfter=No
