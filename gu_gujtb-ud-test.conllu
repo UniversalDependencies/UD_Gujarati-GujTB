@@ -444,7 +444,7 @@
 # translit = pārivārika sadasyo nā sāthe matabheda thai śake che jhagaḍā thī bacavāno prayāsa karo.
 1	પારિવારિક	પારિવારિક	ADJ	_	_	2	amod	_	LTranslit=pārivārika|Translit=pārivārika
 2	સદસ્યો	સદસ્ય	NOUN	_	_	6	obl	_	LTranslit=sadasya|Translit=sadasyo
-3	ના	ના	ADP	_	_	2	case	_	LTranslit=nā|Translit=nā
+3	ના	ના	ADP	_	ExtPos=ADP	2	case	_	LTranslit=nā|Translit=nā
 4	સાથે	સાથે	ADP	_	_	3	fixed	_	LTranslit=sāthe|Translit=sāthe
 5	મતભેદ	મતભેદ	NOUN	_	_	6	obj	_	LTranslit=matabheda|Translit=matabheda
 6	થઇ	થઇ	VERB	_	_	0	root	_	LTranslit=thai|Translit=thai
@@ -554,7 +554,7 @@
 3	અને	અને	CCONJ	_	_	4	cc	_	LTranslit=ane|Translit=ane
 4-5	વરસાદના	_	_	_	_	_	_	_	Translit=varasādanā
 4	_	વરસાદ	NOUN	_	_	2	conj	_	LTranslit=varasāda
-5	_	ના	ADP	_	_	2	case	_	LTranslit=nā
+5	_	ના	ADP	_	ExtPos=ADP	2	case	_	LTranslit=nā
 6	કારણે	કારણ	ADP	_	_	5	fixed	_	LTranslit=kāraṇa|Translit=kāraṇe
 7-8	મૃત્યુઆંકની	_	_	_	_	_	_	_	Translit=mr̥tyuāṁkanī
 7	_	મૃત્યુઆંક	NOUN	_	_	9	nmod	_	LTranslit=mr̥tyuāṁka
@@ -1200,7 +1200,7 @@
 # translit = e nā pote khāya, nā khāvā de.
 1	એ	_	PRON	_	_	4	nsubj	_	Translit=e
 2	ના	_	PART	_	_	4	cc:preconj	_	Translit=nā
-3	પોતે	_	PRON	_	_	1	obl	_	Translit=pote
+3	પોતે	_	PRON	_	_	1	nmod	_	Translit=pote
 4	ખાય	_	VERB	_	_	0	root	_	SpaceAfter=No|Translit=khāya
 5	,	_	PUNCT	_	_	7	punct	_	Translit=,
 6	ના	_	PART	_	_	7	cc	_	Translit=nā
