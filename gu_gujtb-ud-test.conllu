@@ -1412,8 +1412,8 @@
 8	ખેતી	_	NOUN	_	_	0	root	_	SpaceAfter=No|Translit=khetī
 9	,	_	PUNCT	_	_	10	punct	_	Translit=,
 10	ખેતમજૂરી	_	NOUN	_	_	8	conj	_	Translit=khetamajūrī
-11	તેમ	_	CCONJ	_	_	13	cc	_	Translit=tema
-12	જ	_	X	_	Typo=Yes	11	goeswith	_	Translit=ja
+11	તેમ	_	CCONJ	_	Typo=Yes	13	cc	_	Translit=tema
+12	જ	_	X	_	_	11	goeswith	_	Translit=ja
 13	પશુપાલન	_	NOUN	_	_	8	conj	_	Translit=paśupālana
 14	છે	_	AUX	_	_	8	cop	_	SpaceAfter=No|Translit=che
 15	.	_	PUNCT	_	_	8	punct	_	SpaceAfter=No|Translit=.
