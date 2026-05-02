@@ -266,7 +266,7 @@
 1	વધુમાં	વધુ	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	5	punct	_	_
 3	યહોવાહ	યહોવાહ	PROPN	_	_	5	nsubj	_	_
-4	આપણને	આપણને	PRON	_	Case=Dat|Clusivity=In|Number=Plur	5	obj	_	_
+4	આપણને	આપણને	PRON	_	_	5	obj	_	_
 5	તજશે	તજશે	VERB	_	_	0	root	_	_
 6	નહિ	ન	AUX	_	_	5	aux	_	_
 7	એ	એ	PRON	_	_	10	obj	_	_
@@ -275,7 +275,7 @@
 10	રાખવું	રાખવું	VERB	_	_	5	advcl:relcl	_	_
 11	કેવું	કેવું	ADV	_	_	13	advmod	_	_
 12	ઉત્તેજન	ઉત્તેજન	NOUN	_	_	13	compound	_	_
-13	આપનારું	આપનારું	NOUN	_	Gender=Neut	10	advcl	_	_
+13	આપનારું	આપનારું	NOUN	_	_	10	advcl	_	_
 14	છે	છે	AUX	_	_	13	cop	_	SpaceAfter=No
 15	!	!	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
@@ -283,7 +283,7 @@
 # text = તેઓ પોતાની ઈચ્છાથી અહીં આવે છે.
 1	તેઓ	તેઓ	PRON	_	_	6	nsubj	_	_
 2-3	પોતાની	_	_	_	_	_	_	_	_
-2	_	પોતા	PRON	_	Case=Gen	4	nmod	_	_
+2	_	પોતા	PRON	_	_	4	nmod	_	_
 3	_	ની	ADP	_	_	2	case	_	_
 4	ઈચ્છાથી	ઈચ્છાથી	NOUN	_	_	6	obl	_	_
 5	અહીં	અહીં	ADV	_	_	6	advmod	_	_
@@ -293,9 +293,9 @@
 
 # sent_id = samanantar_2238210
 # text = આશા પર દુનિયા ટકી છે.
-1	આશા	આશા	NOUN	_	Gender=Fem	4	obl	_	_
+1	આશા	આશા	NOUN	_	_	4	obl	_	_
 2	પર	પર	ADP	_	_	1	case	_	_
-3	દુનિયા	દુનિયા	NOUN	_	Gender=Fem	4	nsubj	_	_
+3	દુનિયા	દુનિયા	NOUN	_	_	4	nsubj	_	_
 4	ટકી	ટકી	VERB	_	_	0	root	_	_
 5	છે	છે	AUX	_	_	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -312,20 +312,20 @@
 
 # sent_id = samanantar_1263003
 # text = ઘટના બાદ પોલીસ દ્વારા તુરંત જ ગામમાં અને આસપાસના વિસ્તારમાં લોખંડી બંદોબસ્ત ગોઠવી દેવામાં આવ્યો હતો.
-1	ઘટના	ઘટના	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
+1	ઘટના	ઘટના	NOUN	_	_	15	obl	_	_
 2	બાદ	બાદ	ADP	_	_	1	case	_	_
-3	પોલીસ	પોલીસ	NOUN	_	Gender=Fem	15	obl:agent	_	_
+3	પોલીસ	પોલીસ	NOUN	_	_	15	obl:agent	_	_
 4	દ્વારા	દ્વારા	ADP	_	_	3	case	_	_
 5	તુરંત	તુરંત	ADV	_	_	15	advmod	_	_
 6	જ	જ	PART	_	_	5	discourse	_	_
-7	ગામમાં	ગામ	NOUN	_	Gender=Neut	15	obl	_	_
+7	ગામમાં	ગામ	NOUN	_	_	15	obl	_	_
 8	અને	અને	CCONJ	_	_	11	cc	_	_
 9-10	આસપાસના	_	_	_	_	_	_	_	_
 9	_	આસપાસ	NOUN	_	_	11	nmod	_	_
 10	_	ના	ADP	_	_	9	case	_	_
-11	વિસ્તારમાં	વિસ્તાર	NOUN	_	Gender=Masc	7	conj	_	_
+11	વિસ્તારમાં	વિસ્તાર	NOUN	_	_	7	conj	_	_
 12	લોખંડી	લોખંડી	ADJ	_	_	13	amod	_	_
-13	બંદોબસ્ત	બંદોબસ્ત	NOUN	_	Gender=Masc	15	nsubj:pass	_	_
+13	બંદોબસ્ત	બંદોબસ્ત	NOUN	_	_	15	nsubj:pass	_	_
 14	ગોઠવી	ગોઠવી	VERB	_	_	15	compound:svc	_	_
 15	દેવામાં	દેવા	VERB	_	_	0	root	_	_
 16	આવ્યો	આવવું	AUX	_	_	15	aux	_	_
@@ -335,9 +335,9 @@
 # sent_id = samanantar_1214302
 # text = મહિલાની ઓળખ જાહેર કરવામાં આવી નથી.
 1-2	મહિલાની	_	_	_	_	_	_	_	_
-1	_	મહિલા	NOUN	_	Case=Gen|Gender=Fem	3	nmod	_	_
+1	_	મહિલા	NOUN	_	_	3	nmod	_	_
 2	_	ની	ADP	_	_	1	case	_	_
-3	ઓળખ	ઓળખ	NOUN	_	Gender=Fem	5	nsubj:pass	_	_
+3	ઓળખ	ઓળખ	NOUN	_	_	5	nsubj:pass	_	_
 4	જાહેર	જાહેર	NOUN	_	_	5	compound:lvc	_	_
 5	કરવામાં	કરવામાં	VERB	_	_	0	root	_	_
 6	આવી	આવવું	AUX	_	_	5	aux	_	_
@@ -373,9 +373,9 @@
 2-3	મોદીની	_	_	_	_	_	_	_	_
 2	_	મોદી	PROPN	_	_	1	flat	_	_
 3	_	ની	ADP	_	_	1	case	_	_
-4	ઉપલબ્ધિઓ	ઉપલબ્ધિ	NOUN	_	Number=Plur	7	obl	_	_
+4	ઉપલબ્ધિઓ	ઉપલબ્ધિ	NOUN	_	_	7	obl	_	_
 5	પર	પર	ADP	_	_	4	case	_	_
-6	ભારતને	ભારત	NOUN	_	Case=Dat	7	nsubj	_	_
+6	ભારતને	ભારત	NOUN	_	_	7	nsubj	_	_
 7	ગર્વ	ગર્વ	NOUN	_	_	10	ccomp	_	_
 8	છે	છે	AUX	_	_	7	cop	_	_
 9	:	:	PUNCT	_	_	10	punct	_	_
@@ -387,8 +387,8 @@
 1-2	પ્રધાનમંત્રીનું	_	_	_	_	_	_	_	_
 1	_	પ્રધાનમંત્રી	NOUN	_	_	3	nmod	_	_
 2	_	નું	ADP	_	_	1	case	_	_
-3	કાર્યાલય	કાર્યાલય	NOUN	_	Gender=Neut	10	dislocated	_	_
-4	પ્રધાનમંત્રીએ	પ્રધાનમંત્રી	NOUN	_	Case=Erg	10	nsubj	_	_
+3	કાર્યાલય	કાર્યાલય	NOUN	_	_	10	dislocated	_	_
+4	પ્રધાનમંત્રીએ	પ્રધાનમંત્રી	NOUN	_	_	10	nsubj	_	_
 5	રાષ્ટ્રીય	રાષ્ટ્રીય	ADJ	_	_	6	amod	_	_
 6	મતદાતા	મતદાતા	NOUN	_	_	7	nmod	_	_
 7	દિવસ	દિવસ	NOUN	_	_	8	nmod	_	_
@@ -398,13 +398,13 @@
 11	પ્રધાનમંત્રી	પ્રધાનમંત્રી	PROPN	_	_	22	nsubj	_	_
 12	શ્રી	શ્રી	PART	_	_	11	flat	_	_
 13	નરેન્દ્ર	નરેન્દ્ર	PROPN	_	_	12	flat	_	_
-14	મોદીએ	મોદી	PROPN	_	Case=Erg	13	flat	_	_
+14	મોદીએ	મોદી	PROPN	_	_	13	flat	_	_
 15	આજે	આજે	ADV	_	_	22	advmod	_	_
 16	રાષ્ટ્રીય	રાષ્ટ્રીય	ADJ	_	_	17	amod	_	_
 17	મતદાતા	મતદાતા	NOUN	_	_	18	nmod	_	_
 18	દિવસ	દિવસ	NOUN	_	_	19	nmod	_	_
 19	નિમિત્તે	નિમિત્ત	NOUN	_	_	22	obl	_	_
-20	લોકોને	લોકો	NOUN	_	Case=Dat	22	iobj	_	_
+20	લોકોને	લોકો	NOUN	_	_	22	iobj	_	_
 21	શુભેચ્છા	શુભેચ્છા	NOUN	_	_	22	obj	_	_
 22	પાઠવી	પાઠવી	VERB	_	_	10	dislocated	_	_
 23	હતી	છે	AUX	_	_	22	aux	_	SpaceAfter=No
@@ -413,14 +413,14 @@
 # sent_id = samanantar_494973
 # text = પારિવારિક સદસ્યો ના સાથે મતભેદ થઇ શકે છે ઝગડા થી બચવાનો પ્રયાસ કરો.
 1	પારિવારિક	પારિવારિક	ADJ	_	_	2	amod	_	_
-2	સદસ્યો	સદસ્ય	NOUN	_	Number=Plur	6	obl	_	_
+2	સદસ્યો	સદસ્ય	NOUN	_	_	6	obl	_	_
 3	ના	ના	ADP	_	_	2	case	_	_
 4	સાથે	સાથે	ADP	_	_	3	fixed	_	_
 5	મતભેદ	મતભેદ	NOUN	_	_	6	obj	_	_
 6	થઇ	થઇ	VERB	_	_	0	root	_	_
 7	શકે	શકવું	AUX	_	_	6	aux	_	_
 8	છે	છે	AUX	_	_	6	aux	_	_
-9	ઝગડા	ઝગડાથી	NOUN	_	Typo=Yes	11	obl	_	_
+9	ઝગડા	ઝગડાથી	NOUN	_	_	11	obl	_	_
 10	થી	_	X	_	_	9	goeswith	_	_
 11-12	બચવાનો	_	_	_	_	_	_	_	_
 11	_	બચવા	VERB	_	_	14	xcomp	_	_
@@ -431,7 +431,7 @@
 
 # sent_id = samanantar_1295138
 # text = ઐયરે પણ સારી ઈનિંગ રમી.
-1	ઐયરે	ઐયર	PROPN	_	Case=Erg	5	nsubj	_	_
+1	ઐયરે	ઐયર	PROPN	_	_	5	nsubj	_	_
 2	પણ	પણ	PART	_	_	1	discourse	_	_
 3	સારી	સારી	ADJ	_	_	4	amod	_	_
 4	ઈનિંગ	ઈનિંગ	NOUN	_	_	5	obj	_	_
@@ -442,7 +442,7 @@
 # text = આપણે કયા સવાલો પર ચર્ચા કરીશું?
 1	આપણે	આપણે	PRON	_	_	6	nsubj	_	_
 2	કયા	કયા	DET	_	_	3	det	_	_
-3	સવાલો	સવાલ	NOUN	_	Number=Plur	5	nmod	_	_
+3	સવાલો	સવાલ	NOUN	_	_	5	nmod	_	_
 4	પર	પર	ADP	_	_	3	case	_	_
 5	ચર્ચા	ચર્ચા	NOUN	_	_	6	obj	_	_
 6	કરીશું	કરીશું	VERB	_	_	0	root	_	SpaceAfter=No
@@ -504,7 +504,7 @@
 2	વંદે	વંદે	PROPN	_	_	8	nsubj	_	_
 3	ભારત	ભારત	PROPN	_	_	2	flat	_	_
 4	એક્સપ્રેસ	એક્સપ્રેસ	PROPN	_	_	3	flat	_	_
-5	દિલ્હીથી	દિલ્હી	PROPN	_	Case=Abl	8	obl	_	_
+5	દિલ્હીથી	દિલ્હી	PROPN	_	_	8	obl	_	_
 6	વારાણસી	વારાણસી	PROPN	_	_	8	obl	_	_
 7	વચ્ચે	વચ્ચે	ADP	_	_	6	case	_	_
 8	દોડી	દોડી	VERB	_	_	0	root	_	_
@@ -514,7 +514,7 @@
 
 # sent_id = samanantar_2223066
 # text = પુણેમાં પુર અને વરસાદના કારણે મૃત્યુઆંકની સંખ્યા 7એ પહોંચી.
-1	પુણેમાં	પુણે	PROPN	_	Case=Loc	2	nmod	_	_
+1	પુણેમાં	પુણે	PROPN	_	_	2	nmod	_	_
 2	પુર	પુર	NOUN	_	_	11	obl	_	_
 3	અને	અને	CCONJ	_	_	4	cc	_	_
 4-5	વરસાદના	_	_	_	_	_	_	_	_
@@ -525,7 +525,7 @@
 7	_	મૃત્યુઆંક	NOUN	_	_	9	nmod	_	_
 8	_	ની	ADP	_	_	7	case	_	_
 9	સંખ્યા	સંખ્યા	NOUN	_	_	11	nsubj	_	_
-10	7એ	7	NUM	_	Case=Ter	11	obl	_	_
+10	7એ	7	NUM	_	_	11	obl	_	_
 11	પહોંચી	પહોંચી	VERB	_	_	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
 
@@ -534,7 +534,7 @@
 1	આવા	આવા	ADJ	_	_	2	amod	_	_
 2	પ્રક્રિયા	પ્રક્રિયા	NOUN	_	_	5	nsubj:pass	_	_
 3	બે	બે	NUM	_	_	4	nummod	_	_
-4	પગલાંમાં	પગલાં	NOUN	_	Number=Plur	5	obl	_	_
+4	પગલાંમાં	પગલાં	NOUN	_	_	5	obl	_	_
 5	કરવામાં	કરવા	VERB	_	_	0	root	_	_
 6	આવે	આવવું	AUX	_	_	5	aux	_	_
 7	છે	છે	AUX	_	_	5	aux	_	SpaceAfter=No
@@ -554,10 +554,10 @@
 2	મેટલ	મેટલ	ADJ	_	_	3	amod	_	_
 3	વાડ	વાડ	NOUN	_	_	6	obl	_	_
 4	દ્વારા	દ્વારા	ADP	_	_	3	case	_	_
-5	વિમાનને	વિમાનને	NOUN	_	Case=Acc	6	obj	_	_
+5	વિમાનને	વિમાનને	NOUN	_	_	6	obj	_	_
 6	જોઈ	જોઈ	VERB	_	_	0	root	_	_
 7-8	લોકોનું	_	_	_	_	_	_	_	_
-7	_	લોકો	NOUN	_	Number=Plur	9	nmod	_	_
+7	_	લોકો	NOUN	_	_	9	nmod	_	_
 8	_	નું	ADP	_	_	7	case	_	_
 9	જૂથ	જૂથ	NOUN	_	_	6	dislocated	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
@@ -649,7 +649,7 @@
 # text = જે અંતર્ગત અમદાવાદમાં રાજ્ય સ્તરીય સેમિનારનું આયોજન થયું હતું.
 1	જે	જે	PRON	_	_	8	obl	_	_
 2	અંતર્ગત	અંતર્ગત	ADP	_	_	1	case	_	_
-3	અમદાવાદમાં	અમદાવાદમાં	PROPN	_	Case=Loc	8	obl	_	_
+3	અમદાવાદમાં	અમદાવાદમાં	PROPN	_	_	8	obl	_	_
 4	રાજ્ય	રાજ્ય	NOUN	_	_	5	compound	_	_
 5	સ્તરીય	સ્તરીય	NOUN	_	_	6	nmod	_	_
 6-7	સેમિનારનું	_	_	_	_	_	_	_	_
@@ -663,7 +663,7 @@
 # sent_id = samanantar_1805540
 # text = એક અઠવાડિયામાં સતત કેસો વધી રહ્યા છે.
 1	એક	એક	NUM	_	_	2	nummod	_	_
-2	અઠવાડિયામાં	અઠવાડિયામાં	NOUN	_	Case=Tem	5	obl	_	_
+2	અઠવાડિયામાં	અઠવાડિયામાં	NOUN	_	_	5	obl	_	_
 3	સતત	સતત	ADV	_	_	5	advmod	_	_
 4	કેસો	કેસો	NOUN	_	_	5	nsubj	_	_
 5	વધી	વધી	VERB	_	_	0	root	_	_
@@ -705,7 +705,7 @@
 # sent_id = samanantar_2502443
 # text = જ્યાં તેમને ઝડપથી શોધવા માટે?
 1	જ્યાં	જ્યાં	ADV	_	_	4	advmod	_	_
-2	તેમને	તેમને	PRON	_	Case=Acc	4	obj	_	_
+2	તેમને	તેમને	PRON	_	_	4	obj	_	_
 3	ઝડપથી	ઝડપથી	NOUN	_	_	4	obl	_	_
 4	શોધવા	શોધવા	VERB	_	_	0	root	_	_
 5	માટે	માટે	ADP	_	_	4	case	_	SpaceAfter=No
@@ -731,7 +731,7 @@
 1	પીએમ	પીએમ	PROPN	_	_	10	nsubj	_	_
 2	મોદી	મોદી	PROPN	_	_	1	flat	_	_
 3	એસસીઓ	એસસીઓ	PROPN	_	_	6	obl	_	_
-4	સમિટમાં	સમિટમાં	PROPN	_	Case=Loc	3	flat	_	_
+4	સમિટમાં	સમિટમાં	PROPN	_	_	3	flat	_	_
 5	ભાગ	ભાગ	NOUN	_	_	6	compound:lvc	_	_
 6	લેવા	લેવા	VERB	_	_	10	advcl	_	_
 7	માટે	માટે	ADP	_	_	6	case	_	_
@@ -739,7 +739,7 @@
 8	_	કિર્ગિસ્તાન	PROPN	_	_	10	nmod	_	_
 9	_	ની	ADP	_	_	8	case	_	_
 10	રાજધાની	રાજધાની	NOUN	_	_	0	root	_	_
-11	બિશ્કેકમાં	બિશ્કેકમાં	PROPN	_	Case=Loc	10	appos	_	_
+11	બિશ્કેકમાં	બિશ્કેકમાં	PROPN	_	_	10	appos	_	_
 12	છે	છે	AUX	_	_	10	cop	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
 
@@ -787,7 +787,7 @@
 # text = મારે કહેવું પડયું.
 1	મારે	મારે	PRON	_	_	2	nsubj	_	_
 2	કહેવું	કહેવું	VERB	_	_	0	root	_	_
-3	પડયું	પડવું	AUX	_	Mood=Nec	2	aux	_	SpaceAfter=No
+3	પડયું	પડવું	AUX	_	_	2	aux	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = samanantar_419190
@@ -927,7 +927,7 @@
 6	હતો	છે	AUX	_	_	5	cop	_	_
 7	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
-# sent_id=grammar_1
+# sent_id = grammar_1
 # text = મગન કામ કરે છે.
 1	મગન	_	PROPN	_	_	3	nsubj	_	_
 2	કામ	_	NOUN	_	_	3	obj	_	_
@@ -935,7 +935,7 @@
 4	છે	_	AUX	_	_	3	aux	_	SpaceAfter=No
 5	.	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
-# sent_id=grammar_2
+# sent_id = grammar_2
 # text = ગુજરાતી ગાંધીજીની ભાષા છે.
 1	ગુજરાતી	_	NOUN	_	_	4	nsubj	_	_
 2-3	ગાંધીજીની	_	_	_	_	_	_	_	_
@@ -945,7 +945,7 @@
 5	છે	_	AUX	_	_	4	cop	_	SpaceAfter=No
 6	.	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
-# sent_id=grammar_3
+# sent_id = grammar_3
 # text = છગન ક્યાં જાય છે?
 1	છગન	_	PROPN	_	_	3	nsubj	_	_
 2	ક્યાં	_	PRON	_	_	3	obl	_	_
@@ -953,33 +953,33 @@
 4	છે	_	AUX	_	_	3	aux	_	SpaceAfter=No
 5	?	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
-# sent_id=grammar_4
+# sent_id = grammar_4
 # text = તું કાલે આવીશ?
 1	તું	_	PRON	_	_	3	nsubj	_	_
-2	કાલે	_	NOUN	_	Case=Tem	3	obl:tmod	_	_
+2	કાલે	_	NOUN	_	_	3	obl:tmod	_	_
 3	આવીશ	_	VERB	_	_	0	root	_	SpaceAfter=No
 4	?	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
-# sent_id=grammar_5
+# sent_id = grammar_5
 # text = કાલે આવ.
-1	કાલે	_	NOUN	_	Case=Tem	2	obl:tmod	_	_
+1	કાલે	_	NOUN	_	_	2	obl:tmod	_	_
 2	આવ	_	VERB	_	_	0	root	_	SpaceAfter=No
 3	.	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
-# sent_id=grammar_6
+# sent_id = grammar_6
 # text = કાલે આવજે.
-1	કાલે	_	NOUN	_	Case=Tem	2	obl:tmod	_	_
-2	આવજે	_	VERB	_	Polite=Form	0	root	_	SpaceAfter=No
+1	કાલે	_	NOUN	_	_	2	obl:tmod	_	_
+2	આવજે	_	VERB	_	_	0	root	_	SpaceAfter=No
 3	.	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
-# sent_id=grammar_7
+# sent_id = grammar_7
 # text = જા, મર!
 1	જા	_	VERB	_	_	0	root	_	SpaceAfter=No
 2	,	_	PUNCT	_	_	1	punct	_	_
 3	મર	_	VERB	_	_	1	compound:svc	_	SpaceAfter=No
 4	!	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
-# sent_id=grammar_8
+# sent_id = grammar_8
 # text = વાહ! વાહ! શું ફિલમ હતી!
 1	વાહ	_	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	!	_	PUNCT	_	_	6	punct	_	_
@@ -990,43 +990,43 @@
 7	હતી	_	AUX	_	_	6	cop	_	SpaceAfter=No
 8	!	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
-# sent_id=grammar_9
+# sent_id = grammar_9
 # text = લિના સુંદર છે.
 1	લિના	_	PROPN	_	_	2	nsubj	_	_
 2	સુંદર	_	ADJ	_	_	0	root	_	_
 3	છે	_	AUX	_	_	2	cop	_	SpaceAfter=No
 4	.	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
-# sent_id=grammar_10
+# sent_id = grammar_10
 # text = રામ ઘરમાં ગયો.
-1	રામ	_	PROPN	_	Case=Nom	3	nsubj	_	_
-2	ઘરમાં	_	NOUN	_	Case=All	3	obl	_	_
+1	રામ	_	PROPN	_	_	3	nsubj	_	_
+2	ઘરમાં	_	NOUN	_	_	3	obl	_	_
 3	ગયો	_	VERB	_	_	0	root	_	SpaceAfter=No
 4	.	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
-# sent_id=grammar_11
+# sent_id = grammar_11
 # text = મિતાએ ફળ ખાધું.
-1	મિતાએ	_	PROPN	_	Case=Erg	3	nsubj	_	_
-2	ફળ	_	NOUN	_	Case=Abs	3	obj	_	_
+1	મિતાએ	_	PROPN	_	_	3	nsubj	_	_
+2	ફળ	_	NOUN	_	_	3	obj	_	_
 3	ખાધું	_	VERB	_	_	0	root	_	SpaceAfter=No
 4	.	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
-# sent_id=grammar_12
+# sent_id = grammar_12
 # text = મિતાએ મગનને કહ્યું.
-1	મિતાએ	_	PROPN	_	Case=Erg	3	nsubj	_	_
-2	મગનને	_	PROPN	_	Case=Dat	3	iobj	_	_
+1	મિતાએ	_	PROPN	_	_	3	nsubj	_	_
+2	મગનને	_	PROPN	_	_	3	iobj	_	_
 3	કહ્યું	_	VERB	_	_	0	root	_	SpaceAfter=No
 4	.	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
-# sent_id=grammar_13
+# sent_id = grammar_13
 # text = મિતાએ લિનાને ચોપડી આપી.
-1	મિતાએ	_	PROPN	_	Case=Erg	4	nsubj	_	_
-2	લિનાને	_	PROPN	_	Case=Dat	4	iobj	_	_
-3	ચોપડી	_	NOUN	_	Case=Abs	4	obj	_	_
+1	મિતાએ	_	PROPN	_	_	4	nsubj	_	_
+2	લિનાને	_	PROPN	_	_	4	iobj	_	_
+3	ચોપડી	_	NOUN	_	_	4	obj	_	_
 4	આપી	_	VERB	_	_	0	root	_	SpaceAfter=No
 5	.	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
-# sent_id=grammar_14
+# sent_id = grammar_14
 # text = મગન અતિ ચતુર છે.
 1	મગન	_	PROPN	_	_	3	nsubj	_	_
 2	અતિ	_	ADV	_	_	3	advmod	_	_
@@ -1034,15 +1034,15 @@
 4	છે	_	AUX	_	_	3	cop	_	SpaceAfter=No
 5	.	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
-# sent_id=grammar_15
+# sent_id = grammar_15
 # text = મગન છગનથી બુધ્ધિવાન છે.
 1	મગન	_	PROPN	_	_	3	nsubj	_	_
-2	છગનથી	_	PROPN	_	Case=Cmp	3	obl	_	_
+2	છગનથી	_	PROPN	_	_	3	obl	_	_
 3	બુધ્ધિવાન	_	ADJ	_	_	0	root	_	_
 4	છે	_	AUX	_	_	3	cop	_	SpaceAfter=No
 5	.	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
-# sent_id=grammar_16
+# sent_id = grammar_16
 # text = તમારો છોકરો ગણિતમાં ઘણો પાછળ પડ્યો છે.
 1	તમારો	_	PRON	_	_	2	nmod	_	_
 2	છોકરો	_	NOUN	_	_	6	nsubj	_	_
@@ -1053,7 +1053,7 @@
 7	છે	_	AUX	_	_	6	aux	_	SpaceAfter=No
 8	.	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
-# sent_id=grammar_17
+# sent_id = grammar_17
 # text = મગન ગઈકાલે એકલો ઉપર હતો.
 1	મગન	_	PROPN	_	_	4	nsubj	_	_
 2	ગઈકાલે	_	NOUN	_	_	4	obl:tmod	_	_
@@ -1062,7 +1062,7 @@
 5	હતો	_	AUX	_	_	4	cop	_	SpaceAfter=No
 6	.	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
-# sent_id=grammar_18
+# sent_id = grammar_18
 # text = હું ઘરે આવીશ અને તને ફોન કરીશ.
 1	હું	_	PRON	_	_	3	nsubj	_	_
 2	ઘરે	_	NOUN	_	_	3	obl	_	_
@@ -1073,7 +1073,7 @@
 7	કરીશ	_	VERB	_	_	3	conj	_	SpaceAfter=No
 8	.	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
-# sent_id=grammar_19
+# sent_id = grammar_19
 # text = મગન આવશે કે એનો ભાઈ આવશે?
 1	મગન	_	PROPN	_	_	2	nsubj	_	_
 2	આવશે	_	VERB	_	_	0	root	_	_
@@ -1085,7 +1085,7 @@
 7	આવશે	_	VERB	_	_	2	conj	_	SpaceAfter=No
 8	?	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
-# sent_id=grammar_20
+# sent_id = grammar_20
 # text = બધું કામ આજે કરી લે, કાલે આપડે બહાર જવાનું છે.
 1	બધું	_	DET	_	_	2	det	_	_
 2	કામ	_	NOUN	_	_	4	obj	_	_
@@ -1100,7 +1100,7 @@
 11	છે	_	AUX	_	_	10	aux	_	SpaceAfter=No
 12	.	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
-# sent_id=grammar_21
+# sent_id = grammar_21
 # text = ના તું ના હું.
 1	ના	_	CCONJ	_	_	2	cc:preconj	_	_
 2	તું	_	PRON	_	_	0	root	_	_
@@ -1108,7 +1108,7 @@
 4	હું	_	PRON	_	_	2	conj	_	SpaceAfter=No
 5	.	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
-# sent_id=grammar_22
+# sent_id = grammar_22
 # text = એ ના પોતે ખાય, ના ખાવા દે.
 1	એ	_	PRON	_	_	4	nsubj	_	_
 2	ના	_	PART	_	_	4	cc:preconj	_	_
@@ -1120,7 +1120,7 @@
 8	દે	_	AUX	_	_	7	aux	_	SpaceAfter=No
 9	.	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
-# sent_id=grammar_23
+# sent_id = grammar_23
 # text = એને ખાતરી છે કે ગાડી આવશે.
 1	એને	_	PRON	_	_	2	nsubj	_	_
 2	ખાતરી	_	NOUN	_	_	0	root	_	_
@@ -1130,7 +1130,7 @@
 6	આવશે	_	VERB	_	_	2	ccomp	_	SpaceAfter=No
 7	.	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
-# sent_id=grammar_24
+# sent_id = grammar_24
 # text = લીનાએ જોયું કે મગનની તબિયત સારી નથી.
 1	લીનાએ	_	PROPN	_	_	2	nsubj	_	_
 2	જોયું	_	VERB	_	_	0	root	_	_
@@ -1143,7 +1143,7 @@
 8	નથી	_	AUX	_	_	7	cop	_	SpaceAfter=No
 9	.	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
-# sent_id=grammar_25
+# sent_id = grammar_25
 # text = એ આવશે એમ મને ના લાગ્યું.
 1	એ	_	PRON	_	_	2	nsubj	_	_
 2	આવશે	_	VERB	_	_	6	ccomp	_	_
@@ -1153,7 +1153,7 @@
 6	લાગ્યું	_	VERB	_	_	0	root	_	SpaceAfter=No
 7	.	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
-# sent_id=grammar_26
+# sent_id = grammar_26
 # text = એ જે પુસ્તક એને લીધી તે મોંઘી છે.
 1	એ	_	DET	_	_	3	det	_	_
 2	જે	_	ADJ	_	_	3	amod	_	_
@@ -1165,7 +1165,7 @@
 8	છે	_	AUX	_	_	7	cop	_	SpaceAfter=No
 9	.	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
-# sent_id=grammar_27
+# sent_id = grammar_27
 # text = જ્યાંપણ એને કામ મળશે, એ જશે.
 1	જ્યાંપણ	_	ADV	_	_	4	advmod	_	_
 2	એને	_	PRON	_	_	4	nsubj	_	_
@@ -1176,7 +1176,7 @@
 7	જશે	_	VERB	_	_	0	root	_	SpaceAfter=No
 8	.	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
-# sent_id=grammar_28
+# sent_id = grammar_28
 # text = તું એ કામ કરત, તો એ ના થાત.
 1	તું	_	PRON	_	_	4	nsubj	_	_
 2	એ	_	DET	_	_	3	det	_	_
@@ -1189,7 +1189,7 @@
 9	થાત	_	VERB	_	_	0	root	_	SpaceAfter=No
 10	.	_	PUNCT	_	_	9	punct	_	SpaceAfter=No
 
-# sent_id=grammar_29
+# sent_id = grammar_29
 # text = હું જેમ કહું તેમ કર.
 1	હું	_	PRON	_	_	3	nsubj	_	_
 2	જેમ	_	ADV	_	_	3	advmod	_	_
@@ -1198,7 +1198,7 @@
 5	કર	_	VERB	_	_	0	root	_	SpaceAfter=No
 6	.	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
-# sent_id=grammar_30
+# sent_id = grammar_30
 # text = મારી તબિયત ખરાબ હોવાથી હું ઘરે રહ્યો.
 1	મારી	_	PRON	_	_	2	nmod	_	_
 2	તબિયત	_	NOUN	_	_	4	nsubj:pass	_	_
@@ -1209,7 +1209,7 @@
 7	રહ્યો	_	VERB	_	_	0	root	_	SpaceAfter=No
 8	.	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
-# sent_id=grammar_31
+# sent_id = grammar_31
 # text = "મરાયો, મરાયો", તેઓ બોલ્યા.
 1	"મરાયો	_	VERB	_	_	6	ccomp	_	SpaceAfter=No
 2	,	_	PUNCT	_	_	3	punct	_	_
@@ -1219,17 +1219,17 @@
 6	બોલ્યા	_	VERB	_	_	0	root	_	SpaceAfter=No
 7	.	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
-# sent_id=grammar_32
+# sent_id = grammar_32
 # text = હોડી દરિયામાં ડબુક ડબુક થાય છે.
 1	હોડી	_	NOUN	_	_	3	nsubj	_	_
 2	દરિયામાં	_	NOUN	_	_	3	obl	_	_
-3	ડબુક	_	VERB	_	VerbType=Ideo	0	root	_	_
-4	ડબુક	_	VERB	_	VerbType=Ideo	3	compound:svc	_	_
+3	ડબુક	_	VERB	_	_	0	root	_	_
+4	ડબુક	_	VERB	_	_	3	compound:svc	_	_
 5	થાય	_	AUX	_	_	3	aux	_	_
 6	છે	_	AUX	_	_	3	aux	_	SpaceAfter=No
 7	.	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
-# sent_id=grammar_33
+# sent_id = grammar_33
 # text = ઘર ડાબ- જમણી બાજું આવશે.
 1	ઘર	ઘર	NOUN	_	_	5	nsubj	_	_
 2	ડાબ-	ડાબ-	ADJ	_	_	3	reparandum	_	_
@@ -1238,13 +1238,13 @@
 5	આવશે	આવશે	VERB	_	_	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
-# sent_id=grammar_34
+# sent_id = grammar_34
 # text = એવી ફિલમ જોવો જે પ્રેમ ભાવ લાવે.
 1	એવી	એવી	ADJ	_	_	2	amod	_	_
 2	ફિલમ	ફિલમ	NOUN	_	_	3	obj	_	_
 3	જોવો	જોવો	VERB	_	_	0	root	_	_
 4	જે	જે	PRON	_	_	7	nsubj	_	_
-5	પ્રેમ	પ્રેમભાવ	NOUN	_	Typo=Yes	7	obj	_	_
+5	પ્રેમ	પ્રેમભાવ	NOUN	_	_	7	obj	_	_
 6	ભાવ	_	X	_	_	5	goeswith	_	_
 7	લાવે	લાવે	VERB	_	_	3	acl:relcl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
@@ -1307,7 +1307,7 @@
 8	ખેતી	_	NOUN	_	_	0	root	_	SpaceAfter=No
 9	,	_	PUNCT	_	_	10	punct	_	_
 10	ખેતમજૂરી	_	NOUN	_	_	8	conj	_	_
-11	તેમ	_	CCONJ	_	Typo=Yes	13	cc	_	_
+11	તેમ	_	CCONJ	_	_	13	cc	_	_
 12	જ	_	X	_	_	11	goeswith	_	_
 13	પશુપાલન	_	NOUN	_	_	8	conj	_	_
 14	છે	_	AUX	_	_	8	cop	_	SpaceAfter=No
@@ -1520,7 +1520,7 @@
 # sent_id = samanantar_138522
 # text = ઝીબ્રાસ ઘાસવાળો ક્ષેત્રમાં જિરાફ્સ સાથે છે.
 1	ઝીબ્રાસ	ઝીબ્રાસ	NOUN	_	_	3	nsubj	_	_
-2	ઘાસવાળો	ઘાસવાળો	ADJ	_	Typo=Yes	3	amod	_	_
+2	ઘાસવાળો	ઘાસવાળો	ADJ	_	_	3	amod	_	_
 3	ક્ષેત્રમાં	ક્ષેત્રમાં	NOUN	_	_	0	root	_	_
 4	જિરાફ્સ	જિરાફ્સ	NOUN	_	_	3	obl	_	_
 5	સાથે	સાથે	ADP	_	_	4	case	_	_
