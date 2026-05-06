@@ -34,7 +34,9 @@
     <tag name="X">3</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="0">
+  <feats unique="2">
+    <feat name="ExtPos" value="ADP" upos="ADP">2</feat><!-- _, ના -->
+    <feat name="Typo" value="Yes" upos="CCONJ,NOUN">3</feat><!-- ઝગડા, તેમ, પ્રેમ -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="43">
@@ -64,14 +66,14 @@
     <dep name="goeswith">3</dep>
     <dep name="iobj">11</dep>
     <dep name="mark">14</dep>
-    <dep name="nmod">125</dep>
+    <dep name="nmod">126</dep>
     <dep name="nmod:poss">3</dep>
     <dep name="nmod:tmod">1</dep>
     <dep name="nsubj">156</dep>
     <dep name="nsubj:pass">18</dep>
     <dep name="nummod">27</dep>
     <dep name="obj">99</dep>
-    <dep name="obl">102</dep>
+    <dep name="obl">101</dep>
     <dep name="obl:agent">1</dep>
     <dep name="obl:tmod">7</dep>
     <dep name="orphan">3</dep>
