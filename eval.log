@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Gujarati-GujTB:
-commit 1654e24c6a0c4633ad17aa8f459785d2d533f9d8
-Merge: 441c3c2 98bf273
+commit c1d439c31d4f04c2e9d054e5d3c722057ce3160e
+Merge: 7685d34 71d9f39
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'gu_gujtb'
@@ -19,33 +19,33 @@ Split: Did not find at least 10000 test words.
 Lemmas: '_' is the most frequent lemma.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 53 out of 1885 total words have one or more features.
-Features: source of annotation (from README) factor is 1.
+Features: 5 out of 1885 total words have one or more features.
+Features: source of annotation (from README) factor is 0.4.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang gu --max-err=10 UD_Gujarati-GujTB/gu_gujtb-ud-test.conllu
-[Line 6 Sent cairo_1]: [L3 Warning pron-det-without-prontype] The word 'તે' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 16 Sent cairo_2]: [L3 Warning pron-det-without-prontype] The word 'મને' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 29 Sent cairo_3]: [L3 Warning pron-det-without-prontype] The word 'તેણે' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 42 Sent cairo_4]: [L3 Warning pron-det-without-prontype] The word 'તારે' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 59 Sent cairo_6]: [L3 Warning pron-det-without-prontype] The word 'તેણીએ' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 61 Sent cairo_6]: [L3 Warning pron-det-without-prontype] The word 'તે' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 84 Sent cairo_8]: [L3 Warning pron-det-without-prontype] The word 'મારા' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 86 Sent cairo_8]: [L3 Warning pron-det-without-prontype] The word 'તારા' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 113 Sent cairo_10]: [L3 Warning pron-det-without-prontype] The word 'એક' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 130 Sent cairo_11]: [L3 Warning pron-det-without-prontype] The word 'કોઈ' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 159
+[Line 7 Sent cairo_1]: [L3 WARNING pron-det-without-prontype] The word 'તે te' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 18 Sent cairo_2]: [L3 WARNING pron-det-without-prontype] The word 'મને mane' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 32 Sent cairo_3]: [L3 WARNING pron-det-without-prontype] The word 'તેણે teṇe' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 46 Sent cairo_4]: [L3 WARNING pron-det-without-prontype] The word 'તારે tāre' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 65 Sent cairo_6]: [L3 WARNING pron-det-without-prontype] The word 'તેણીએ teṇīe' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 67 Sent cairo_6]: [L3 WARNING pron-det-without-prontype] The word 'તે te' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 92 Sent cairo_8]: [L3 WARNING pron-det-without-prontype] The word 'મારા mārā' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 94 Sent cairo_8]: [L3 WARNING pron-det-without-prontype] The word 'તારા tārā' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 123 Sent cairo_10]: [L3 WARNING pron-det-without-prontype] The word 'એક eka' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 141 Sent cairo_11]: [L3 WARNING pron-det-without-prontype] The word 'કોઈ koī' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 156
 *** PASSED ***
 Validity: 1
-(weight=0.111111111111111) * (score{features}=0.3) = 0.0333333333333333
+(weight=0.111111111111111) * (score{features}=0.12) = 0.0133333333333333
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=0.01) = 0.00111111111111111
 (weight=0.37037037037037) * (score{size}=0.0917704515139372) = 0.033989056116273
 (weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
 (weight=0.111111111111111) * (score{tags}=1) = 0.111111111111111
 (weight=0.111111111111111) * (score{udeprels}=0.891891891891892) = 0.0990990990990991
-(TOTAL score=0.285557291017841) * (availability=1) * (validity=1) = 0.285557291017841
+(TOTAL score=0.265557291017841) * (availability=1) * (validity=1) = 0.265557291017841
 STARS = 1.5
-UD_Gujarati-GujTB	0.285557291017841	1.5
+UD_Gujarati-GujTB	0.265557291017841	1.5
