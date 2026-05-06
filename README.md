@@ -59,7 +59,7 @@ Genre: grammar-examples
 Lemmas: manual native
 UPOS: manual native
 XPOS: not available
-Features: manual native
+Features: not available
 Relations: manual native
 Contributors: Mehta, Maitrey; Jobanputra, Mayank
 Contributing: here
